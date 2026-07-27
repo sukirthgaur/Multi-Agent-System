@@ -1,0 +1,20 @@
+{
+  "name": "multi-agent-research",
+  "version": "1.0.0",
+  "description": "Multi-agent research assistant built with Gemini API and free tools",
+  "type": "module",
+  "main": "src/run.ts",
+  "scripts": {
+    "start": "tsx src/run.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.5",
+    "duck-duck-scrape": "^2.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.19.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -10,7 +10,8 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^16.4.5",
-    "duck-duck-scrape": "^2.2.6"
+    "duck-duck-scrape": "^2.2.6",
+    "groq-sdk": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
